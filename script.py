@@ -1,18 +1,19 @@
 class script(object):
 
 
-    START_MSG = """ <b>Hi {}
+    START_MSG = """ 🤓🤹ʜɪ ʜᴇʟᴏ {},🧸
+••••••••••••••••••••••••••••••••••••••••••••••
+[ 🧐ɪ ᴀᴍ ᴀ sɪᴍᴘʟᴇ ᴀᴅᴠᴀɴᴄᴇᴅ Aᴜᴛᴏ Fɪʟᴛᴇʀ Bᴏᴛ🏇..🧸ᴡᴏʀᴋɪɴɢ ᴏɴ @UM_Requests⚡ ]
 
-You can call this as an Auto Filter Bot if you like :D
+🔰ʙᴏᴛ ɢɪᴠᴇs ʙᴜᴛᴛᴏɴ ʟɪɴᴋ ᴛᴏ ғɪʟᴇs ɪɴ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs ᴏɴ ϙᴜᴇʀʏ !
+ɴᴏ ɴᴇᴇᴅ ᴛᴏ ᴀᴅᴅ ғɪʟᴛᴇʀs ғᴏʀ ʏᴏᴜʀ ғɪʟᴇs ᴏʀ ᴍᴏᴠɪᴇs ғʀᴏᴍ ɴᴏᴡ ᴏɴ 🔰
 
-This is Version 2 of Auto Filter Bot
+🧬ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏ /help....🔭
 
-Bot gives button link to files in connected channels on query !
+🔬🧲© ᴄʀᴇᴀᴛᴏʀ : 
+[☛♕𝕯𝖊𝖊𝖐𝖘𝕳𝖎𝖙𝖍 𝕭 ⚛ ɢօաɖǟֆ♛☜🎩](https://t.me/Dee_ks_48_113)
 
-No need to add filters for your files or movies from now on!
-
-For more click <i>help</i></b>"""
-
+°•°•°•°•°•°•°•°•[ 🆄🅼🆁 ]°•°•°•°•°•°•°•°•"""
 
     HELP_MSG = """<b>How to use the bot??</b>
 
