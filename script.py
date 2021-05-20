@@ -15,56 +15,61 @@ class script(object):
 
 °•°•°•°•°•°•°•°•[ 🆄🅼🆁 ]°•°•°•°•°•°•°•°•"""
 
-    HELP_MSG = """<b>How to use the bot??</b>
+    HELP_MSG = """💡 𝐁𝐎𝐓'𝐒 𝐇𝐄𝐋𝐏
 
-<i>
-* Add bot to your group with admin rights.
+🚀ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴀᴅᴍɪɴ ʀɪɢʜᴛs.
 
-* Add bot to channels which you want to link with <b>all admin rights</b>!
-</i>
+🛸ᴀᴅᴅ ʙᴏᴛ ᴛᴏ ᴄʜᴀɴɴᴇʟs ᴡʜɪᴄʜ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʟɪɴᴋ ᴡɪᴛʜ ᴀʟʟ ᴀᴅᴍɪɴ ʀɪɢʜᴛs!🏟️
 
+⭕ 𝐌𝐲 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬 (ᴏɴʟʏ ᴡᴏʀᴋs ɪɴ ɢʀᴏᴜᴘ) 🏛️
 
-<b>Bot Commands - Works in Group only</b>
-(You need to be a Auth User in order to use these commands)
+📌 𝑵𝒐𝒕𝒆🗽
 
-* <code>/add channelid</code>  -  Links channel to your group.
-or
-* <code>/add @channelusername</code> - Links channel to your group.
+💈(ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴀ ᴀᴜᴛʜ ᴜsᴇʀ ɪɴ ᴏʀᴅᴇʀ ᴛᴏ ᴜsᴇ ᴛʜᴇsᴇ ᴄᴏᴍᴍᴀɴᴅs)💈
 
-<i>NOTE : You can get your channel ID from @ChannelidHEXbot </i>
+[ ∆ ] /add ᴄʜᴀɴɴᴇʟɪᴅ/ᴄʜᴀɴɴᴇʟᴜsᴇʀɴᴀᴍᴇ - ᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ(s) ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ.
 
+📌 𝑵𝒐𝒕𝒆 : ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ ɪᴅ ғʀᴏᴍ @ShowJsonBot,🤹
 
-* <code>/del channelid</code>  -  Delinks channel from group
-or
-* <code>/del @channelusername</code>  -  Delinks channel from group
+[ ∆ ]  /del ᴄʜᴀɴɴᴇʟɪᴅ/ᴄʜᴀɴɴᴇʟᴜsᴇʀɴᴀᴍᴇ - ᴅɪsᴄᴏɴɴᴇᴄᴛ ᴄʜᴀɴɴᴇʟ ғʀᴏᴍ ɢʀᴏᴜᴘ
 
-<i>NOTE : You can get connected channel details by <code>/filterstats</code> </i>
+[ ∆ ] /delall - ʀᴇᴍᴏᴠᴇs ᴀʟʟ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟ(s) ᴀɴᴅ ғɪʟᴛᴇʀs ғʀᴏᴍ ɢʀᴏᴜᴘ!
 
+📌 𝑵𝒐𝒕𝒆 : ᴅᴏɴ'ᴛ ᴀᴅᴅ ᴄᴏᴍᴍᴀɴᴅ ᴅᴇʟᴇᴛᴇ ʙᴏᴛs ɪɴ ɢʀᴏᴜᴘ! ᴏᴛʜᴇʀᴡɪsᴇ, ᴅᴇʟᴀʟʟ ᴄᴏᴍᴍᴀɴᴅ ᴡᴏɴᴛ ᴡᴏʀᴋ
 
-* <code>/delall</code>  -  Removes all connected channels and filters from group!
-
-<i>Note : Dont add command delete bots in group! Otherwise, delall command wont work</i>
+[ ∆ ]  /filterstats - ᴄʜᴇᴄᴋ ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴄʜᴀɴɴᴇʟs ᴀɴᴅ ɴᴜᴍʙᴇʀ ᴏғ ғɪʟᴛᴇʀs.
 
 
-* <code>/filterstats</code>  -  Check connected channels and number of filters.
+😅 ɴᴏ ɴᴇᴇᴅ ᴀᴅᴅ ᴇᴀᴄʜ ғɪʟᴛᴇʀ ᴀɢᴀɪɴ!📢
+
+📯ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ sᴇᴀʀᴄʜ ғᴏʀ ʏᴏᴜʀ ғɪʟᴇs ᴀɴᴅ ɢɪᴠᴇ ʟɪɴᴋs ᴛᴏ ᴛʜᴀᴛ!🗡️
+
+
+© @UNI_MOVIES_BOX | @UM_Requests ⚡
+
+•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•°•"""
 
 
 
-No need add each filter again!
-Bot will automatically search for your files and give links to that!
 
 
-<b>© @TroJanzHEX</b>"""
 
+    ABOUT_MSG = """📕 𝐀𝐛𝐨𝐮𝐭 𝐌𝐞 ,⚔️
 
-    ABOUT_MSG = """⭕️<b>My Name : Auto Filter Bot V2</b>
-    
-⭕️<b>Creater :</b> @TroJanzHEX
+[°=°][°=°][°=°][°=°][°=°][°=°][°=°][°=°]
 
-⭕️<b>Language :</b> <code>Python3</code>
+○ ᴍʏ ɴᴀᴍᴇ : ᴜᴍʀ ᴍᴏᴠɪᴇs ᴅᴏɴᴇʀ ᴠ2. 
 
-⭕️<b>Library :</b> <a href='https://docs.pyrogram.org/'>Pyrogram 1.0.7</a> 
+○ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ .
 
-⭕️<b>Tutorial Video :</b> <a href='https://youtu.be/KQVYQAOsFYY'>Video Link</a> 
+○ ғʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏʀᴏɢʀᴀᴍ .
 
-"""
+○ sᴇʀᴠᴇʀ : ʜᴇʀᴏᴋᴜ .
+
+○ ᴠᴇʀsɪᴏɴ : 2.0.0
+
+○ ᴄʀᴇᴀᴛᴏʀ : @Deeks_04_8 🇮🇳
+
+•∆• ᴊᴏɪɴ  ➠ @UM_Requests •~•
+
+°^°^°^°^°^°^°^°^°^°^°^°^°^°^°^°^°^"""
