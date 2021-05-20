@@ -59,7 +59,7 @@ async def filter(client: Bot, message: Message):
         else:
             buttons = btn
             buttons.append(
-                [InlineKeyboardButton(text="🅄🄼🅁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 1/1",callback_data="pages") 🆄🅼🆁]
+                [InlineKeyboardButton(text="🎖️🅄🄼🅁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 1/1",callback_data="pages") 🆄🅼🆁🎖️]
             )
             await message.reply_text(
                 f"[𝚄𝚁𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙶𝙴𝚃 🤹].\n\nᴛᴏ ᴊᴏɪɴ ᴏᴜʀs ᴀʟʟ ᴄʜᴀɴɴᴇʟs ɢᴏ ᴛʜʀᴏᴜɢʜ..\n☞ ❱❱❱ ❴ @UNI_MOVIES_BOX ❵ \n\n⛃ 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ❱»<code>{message.text}</code>.\n\n🕵️ᴍᴀᴄᴛᴄʜᴇᴅ ᴛᴏ ɢɪᴠᴇ ᴏᴘᴛɪᴏɴs ᴄʟɪᴄᴋ ᴛʜᴛ ʙᴜᴛᴛᴀɴs ᴀɴᴅ ɢᴇᴛ ᴜʀs ғɪʟᴇ ⏬⏬",
@@ -103,7 +103,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ 𝙶𝙾 𝙱𝙰𝙲𝙺 𝙿𝙰𝙶𝙴", callback_data=f"back_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🤹🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)+2}/{data['total']}🤹🆄🅼🆁 ", callback_data="pages")]
+                    [InlineKeyboardButton(f"🤹 🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)+2}/{data['total']}🆄🅼🆁 🤹", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -117,7 +117,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ 𝙶𝙾 𝙱𝙰𝙲𝙺 𝙿𝙰𝙶𝙴", callback_data=f"back_{int(index)+1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)+1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🤹🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)+2}/{data['total']}🆄🅼🆁 🤹", callback_data="pages")]
+                    [InlineKeyboardButton(f"🤹 🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)+2}/{data['total']}🆄🅼🆁 🤹", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -138,7 +138,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("𝙶𝙾 𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴 ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)}/{data['total']}🆄🅼🆁", callback_data="pages")]
+                    [InlineKeyboardButton(f"🎖️🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)}/{data['total']}🆄🅼🆁🎖️", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -152,7 +152,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                     [InlineKeyboardButton("⏪ 𝙶𝙾 𝙱𝙰𝙲𝙺 𝙿𝙰𝙶𝙴", callback_data=f"back_{int(index)-1}_{keyword}"),InlineKeyboardButton("NEXT ⏩", callback_data=f"next_{int(index)-1}_{keyword}")]
                 )
                 buttons.append(
-                    [InlineKeyboardButton(f"🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)}/{data['total']}🆄🅼🆁 ", callback_data="pages")]
+                    [InlineKeyboardButton(f"🎖️ 🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 {int(index)}/{data['total']}🆄🅼🆁 🎖️", callback_data="pages")]
                 )
 
                 await query.edit_message_reply_markup( 
@@ -186,7 +186,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             keyboard = InlineKeyboardMarkup([
                 [InlineKeyboardButton("🔙 𝙶𝙾 𝙱𝙰𝙲𝙺 ", callback_data="start_data"),
                     InlineKeyboardButton("🤹 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data")],
-                [InlineKeyboardButton("🔰𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏🔰 ", url="https://t.me/UM_Requests")]
+                [InlineKeyboardButton("🎖️ 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 🎖️ ", url="https://t.me/UM_Requests")]
             ])
 
             await query.message.edit_text(
@@ -220,7 +220,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             await query.message.delete()
 
     else:
-        await query.answer("𝐇𝐞𝐥𝐨𝐨 𝐁𝐫𝐨𝐨,\n\n𝐓𝐡𝐚𝐭𝐬 𝐍𝐨𝐭 𝐁𝐞𝐥𝐨𝐧𝐠𝐬 𝐓𝐨 𝐘𝐨𝐮.\n𝐓𝐡𝐚𝐭 𝐁𝐞𝐥𝐨𝐧𝐠𝐬 𝐓𝐨 𝐖𝐡𝐨 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐓𝐡𝐚𝐭 𝐌𝐎𝐕𝐈𝐄 𝐋𝐈𝐍𝐊.\n\n© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 :~»ᴜɴɪᴠᴇʀsᴀʟ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛs✓",show_alert=True)
+        await query.answer("🤓𝐇𝐞𝐥𝐨𝐨 𝐁𝐫𝐨𝐨,\n\n⚡ 𝐓𝐡𝐚𝐭𝐬 𝐍𝐨𝐭 𝐁𝐞𝐥𝐨𝐧𝐠𝐬 𝐓𝐨 𝐘𝐨𝐮.\n😅𝐓𝐡𝐚𝐭 𝐁𝐞𝐥𝐨𝐧𝐠𝐬 𝐓𝐨 𝐖𝐡𝐨 𝐑𝐞𝐪𝐮𝐞𝐬𝐭𝐞𝐝 𝐓𝐡𝐚𝐭 𝐌𝐎𝐕𝐈𝐄 𝐋𝐈𝐍𝐊.\n\n🎖️© 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 :~»ᴜɴɪᴠᴇʀsᴀʟ ᴍᴏᴠɪᴇs ʀᴇǫᴜᴇsᴛs✓",show_alert=True)
 
 
 def split_list(l, n):
