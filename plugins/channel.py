@@ -36,9 +36,9 @@ async def addchannel(client: Bot, message: Message):
         cmd, text = message.text.split(" ", 1)
     except:
         await message.reply_text(
-            "<i>Enter in correct format!\n\n<code>/add channelid</code>  or\n"
-            "<code>/add @channelusername</code></i>"
-            "\n\nGet Channel id from @ChannelidHEXbot",
+            "<i>🔰Enter in correct format!\n\n<code>/add channelid</code> ⚡ or\n"
+            "<code>/add @channelusername</code></i>",
+            
         )
         return
     try:
@@ -53,14 +53,14 @@ async def addchannel(client: Bot, message: Message):
             chid = text
             if not len(chid) > 2:
                 await message.reply_text(
-                    "Enter valid channel username"
+                    "⚡Enter valid channel username😶"
                 )
                 return
     except Exception:
         await message.reply_text(
-            "Enter a valid ID\n"
-            "ID will be in <b>-100xxxxxxxxxx</b> format\n"
-            "You can also use username of channel with @ symbol",
+            "⚡Enter a valid ID\n"
+            "💡ID will be in <b>-100xxxxxxxxxx</b> format\n"
+            "🤓You can also use username of channel with @ symbol",
         )
         return
 
@@ -68,7 +68,7 @@ async def addchannel(client: Bot, message: Message):
         invitelink = await client.export_chat_invite_link(chid)
     except:
         await message.reply_text(
-            "<i>Add me as admin in your channel with admin rights - 'Invite Users via Link' and try again</i>",
+            "<i>☺️☺️Add me as admin in your channel with admin rights - 'Invite Users via Link' and try again</i>",
         )
         return
 
@@ -98,9 +98,9 @@ async def addchannel(client: Bot, message: Message):
         return
 
     intmsg = await message.reply_text(
-        "<i>Please wait while I'm adding your channel files to DB"
-        "\n\nIt may take some time if you have more files in channel!!"
-        "\nDon't give any other commands now!</i>"
+        "<i>🤹🤹Please wait while I'm adding your channel files to DB🤓"
+        "\n\n🤔It may take some time if you have more files in channel!!"
+        "\n😁Don't give any other commands now!</i>"
     )
 
     channel_id = chatdetails.id
@@ -110,7 +110,7 @@ async def addchannel(client: Bot, message: Message):
 
     already_added = await ifexists(channel_id, group_id)
     if already_added:
-        await intmsg.edit_text("Channel already added to db!")
+        await intmsg.edit_text("🤩Channel already added to db!")
         return
 
     docs = []
@@ -190,7 +190,7 @@ async def addchannel(client: Bot, message: Message):
 
     await channelgroup(channel_id, channel_name, group_id, group_name)
 
-    await intmsg.edit_text("Channel added successfully!")
+    await intmsg.edit_text("𝙲𝙷𝙰𝙽𝙽𝙴𝙻 𝙰𝙳𝙳𝙴𝙳 𝚂𝚄𝙲𝙲𝙴𝚂𝚂𝙵𝚄𝙻𝚈 😎🤯")
 
 
 @Client.on_message(filters.group & filters.command(["del"]))
@@ -317,7 +317,7 @@ async def stats(client: Bot, message: Message):
     group_id = message.chat.id
     group_name = message.chat.title
 
-    stats = f"Stats for Auto Filter Bot in {group_name}\n\n<b>Connected channels ;</b>"
+    stats = f"💡𝙎𝙏𝘼𝙏𝙎 𝙊𝙁 𝘼𝙐𝙏𝙊 𝙁𝙄𝙇𝙏𝙀𝙍 𝘽𝙊𝙏 𝙄𝙉 »»{group_name}\n\n<b>🔰𝐂𝐨𝐧𝐧𝐞𝐜𝐭𝐞𝐝 𝐂𝐡𝐚𝐧𝐧𝐞𝐥𝐬 ;</b>"
 
     chdetails = await channeldetails(group_id)
     if chdetails:
@@ -333,7 +333,7 @@ async def stats(client: Bot, message: Message):
 
     total = await countfilters(group_id)
     if total:
-        stats += f"\n\n<b>Total number of filters</b> : {total}"
+        stats += f"\n\n<b>𝙏𝙊𝙏𝙇𝙀 𝙉𝙊 𝙊𝙁 𝙁𝙄𝙇𝙏𝙀𝙍𝙎</b> : {total}"
 
     await message.reply_text(stats)
 
