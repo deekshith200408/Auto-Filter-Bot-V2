@@ -17,12 +17,12 @@ async def start(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("⚡𝘾𝙍𝙀𝘼𝙏𝙀𝙍/𝙁𝙐𝙉𝘿𝙀𝙍 🤓", url="https://t.me/Deeks_04_8")],
                     [
-                        InlineKeyboardButton("💡", callback_data="help_data"),
-                        InlineKeyboardButton("🤹ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("💡 𝙷𝙴𝙻𝙿", callback_data="help_data"),
+                        InlineKeyboardButton("🤹 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "🎖️ JOIN OUR CHANNEL 🎖️", url="https://t.me/TroJanzHEX")
+                            "🎖️ 𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐀𝐋𝐋 𝐂𝐇𝐀𝐍𝐍𝐄𝐋𝐒 🎖️", url="https://t.me/UNI_MOVIES_BOX")
                     ]
                 ]
             ),
@@ -40,12 +40,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔙BACK", callback_data="start_data"),
-                        InlineKeyboardButton("🤹ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🔙 𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="start_data"),
+                        InlineKeyboardButton("🤹 𝙰𝙱𝙾𝚄𝚃 𝙼𝙴", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "🔰🔰", url="https://t.me/TroJanzSupport")
+                            "🔰𝐉𝐎𝐈𝐍 𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏🔰", url="https://t.me/UM_Requests")
                     ]
                 ]
             ),
@@ -63,12 +63,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🔙BACK", callback_data="help_data"),
-                        InlineKeyboardButton("🏡START", callback_data="start_data"),
+                        InlineKeyboardButton("🔙 𝙶𝙾 𝙱𝙰𝙲𝙺", callback_data="help_data"),
+                        InlineKeyboardButton("🏡 𝙶𝙾 𝙷𝙾𝙼𝙴", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⚡⚡", url="https://t.me/Deeks_04_8")
+                            "⚡𝙾𝚆𝙽𝙴𝚁/𝙲𝚁𝙴𝙰𝚃𝙴𝚁⚡", url="https://t.me/Deeks_04_8")
                     ]
                 ]
             ),
