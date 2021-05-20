@@ -15,14 +15,14 @@ async def start(client, message):
             text=script.START_MSG.format(message.from_user.mention),
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [
+                [[InlineKeyboardButton("⚡𝘾𝙍𝙀𝘼𝙏𝙀𝙍/𝙁𝙐𝙉𝘿𝙀𝙍 🤓", url="https://t.me/Deeks_04_8")],
                     [
-                        InlineKeyboardButton("HELP", callback_data="help_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("💡", callback_data="help_data"),
+                        InlineKeyboardButton("🤹ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ JOIN OUR CHANNEL ⭕️", url="https://t.me/TroJanzHEX")
+                            "🎖️ JOIN OUR CHANNEL 🎖️", url="https://t.me/TroJanzHEX")
                     ]
                 ]
             ),
@@ -40,12 +40,12 @@ async def help(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="start_data"),
-                        InlineKeyboardButton("ABOUT", callback_data="about_data"),
+                        InlineKeyboardButton("🔙BACK", callback_data="start_data"),
+                        InlineKeyboardButton("🤹ABOUT", callback_data="about_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "⭕️ SUPPORT ⭕️", url="https://t.me/TroJanzSupport")
+                            "🔰🔰", url="https://t.me/TroJanzSupport")
                     ]
                 ]
             ),
@@ -63,12 +63,12 @@ async def about(client, message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("BACK", callback_data="help_data"),
-                        InlineKeyboardButton("START", callback_data="start_data"),
+                        InlineKeyboardButton("🔙BACK", callback_data="help_data"),
+                        InlineKeyboardButton("🏡START", callback_data="start_data"),
                     ],
                     [
                         InlineKeyboardButton(
-                            "SOURCE CODE", url="https://github.com/TroJanzHEX/Auto-Filter-Bot-V2")
+                            "⚡⚡", url="https://t.me/Deeks_04_8")
                     ]
                 ]
             ),
