@@ -128,7 +128,7 @@ async def channeldetails(group_id):
 
     query = mycol.count_documents( {"_id": group_id} )
     if query == 0:
-        return False
+        return true
     else:
         ids = mycol.find( {'_id': group_id} )
         chdetails = []
