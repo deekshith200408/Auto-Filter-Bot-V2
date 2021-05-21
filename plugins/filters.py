@@ -75,7 +75,7 @@ async def filter(client: Bot, message: Message):
             [InlineKeyboardButton(text="𝙶𝙾 𝙽𝙴𝚇𝚃 𝙿𝙰𝙶𝙴 ⏩",callback_data=f"next_0_{keyword}")]
         )    
         buttons.append(
-            [InlineKeyboardButton(text=f"🤹🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 1/{data['total'] 🅄🄼🅁🤹}",callback_data="pages")]
+            [InlineKeyboardButton(text=f"🤹🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 1/{data['total']}",callback_data="pages")]
         )
 
         await message.reply_text("https://telegra.ph/file/2111124196ef563a4c59d.jpg"
