@@ -81,7 +81,7 @@ async def filter(client: Bot, message: Message):
         await message.reply_text(
 
                 f"<b>
-<b><a href="https://telegra.ph/file/2111124196ef563a4c59d.jpg">©️ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 » ᴜᴍʀ ɢʀᴏᴜᴘ</a></b>\n\[𝚄𝚁𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙶𝙴𝚃 🤹].\n\nᴛᴏ ᴊᴏɪɴ ᴏᴜʀs ᴀʟʟ ᴄʜᴀɴɴᴇʟs ɢᴏ ᴛʜʀᴏᴜɢʜ..\n☞ ❱❱❱ ❴ @UNI_MOVIES_BOX ❵ \n\n⛃ 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ❱»<code>{message.text}</code>.\n\n🕵️ᴍᴀᴄᴛᴄʜᴇᴅ ᴛᴏ ɢɪᴠᴇ ᴏᴘᴛɪᴏɴs ᴄʟɪᴄᴋ ᴛʜᴛ ʙᴜᴛᴛᴀɴs ᴀɴᴅ ɢᴇᴛ ᴜʀs ғɪʟᴇ ⏬⏬</b>",
+<a> href="https://telegra.ph/file/2111124196ef563a4c59d.jpg">©️ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 » ᴜᴍʀ ɢʀᴏᴜᴘ</a>\n\[𝚄𝚁𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙶𝙴𝚃 🤹].\n\nᴛᴏ ᴊᴏɪɴ ᴏᴜʀs ᴀʟʟ ᴄʜᴀɴɴᴇʟs ɢᴏ ᴛʜʀᴏᴜɢʜ..\n☞ ❱❱❱ ❴ @UNI_MOVIES_BOX ❵ \n\n⛃ 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ❱»<code>{message.text}</code>.\n\n🕵️ᴍᴀᴄᴛᴄʜᴇᴅ ᴛᴏ ɢɪᴠᴇ ᴏᴘᴛɪᴏɴs ᴄʟɪᴄᴋ ᴛʜᴛ ʙᴜᴛᴛᴀɴs ᴀɴᴅ ɢᴇᴛ ᴜʀs ғɪʟᴇ ⏬⏬</b>",
 
 
                 reply_markup=InlineKeyboardMarkup(buttons)
