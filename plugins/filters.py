@@ -78,11 +78,7 @@ async def filter(client: Bot, message: Message):
             [InlineKeyboardButton(text=f"🤹🆄🅼🆁 𝚃𝙾𝚃𝙻𝙴 𝙿𝙰𝙶𝙴𝚂 1/{data['total']}",callback_data="pages")]
         )
 
-        await message.reply_text(
-
-                f"<b>
-<a> href="https://telegra.ph/file/2111124196ef563a4c59d.jpg">©️ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 » ᴜᴍʀ ɢʀᴏᴜᴘ</a>\n\[𝚄𝚁𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙶𝙴𝚃 🤹].\n\nᴛᴏ ᴊᴏɪɴ ᴏᴜʀs ᴀʟʟ ᴄʜᴀɴɴᴇʟs ɢᴏ ᴛʜʀᴏᴜɢʜ..\n☞ ❱❱❱ ❴ @UNI_MOVIES_BOX ❵ \n\n⛃ 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ❱»<code>{message.text}</code>.\n\n🕵️ᴍᴀᴄᴛᴄʜᴇᴅ ᴛᴏ ɢɪᴠᴇ ᴏᴘᴛɪᴏɴs ᴄʟɪᴄᴋ ᴛʜᴛ ʙᴜᴛᴛᴀɴs ᴀɴᴅ ɢᴇᴛ ᴜʀs ғɪʟᴇ ⏬⏬</b>",
-
+        await message.reply_text(text = f"<b><a> href="https://telegra.ph/file/2111124196ef563a4c59d.jpg">©️ 𝙿𝙾𝚆𝙴𝚁𝙴𝙳 𝙱𝚈 » ᴜᴍʀ ɢʀᴏᴜᴘ</a>\n\n[𝚄𝚁𝚂 𝚁𝙴𝚀𝚄𝙴𝚂𝚃𝙴𝙳 𝙼𝙾𝚅𝙸𝙴 𝚁𝙴𝙰𝙳𝚈 𝚃𝙾 𝙶𝙴𝚃 🤹].\n\nᴛᴏ ᴊᴏɪɴ ᴏᴜʀs ᴀʟʟ ᴄʜᴀɴɴᴇʟs ɢᴏ ᴛʜʀᴏᴜɢʜ..\n☞ ❱❱❱ ❴ @UNI_MOVIES_BOX ❵ \n\n⛃ 𝙼𝙾𝚅𝙸𝙴 𝙽𝙰𝙼𝙴 ❱»<code>{message.text}</code>.\n\n🕵️ᴍᴀᴄᴛᴄʜᴇᴅ ᴛᴏ ɢɪᴠᴇ ᴏᴘᴛɪᴏɴs ᴄʟɪᴄᴋ ᴛʜᴛ ʙᴜᴛᴛᴀɴs ᴀɴᴅ ɢᴇᴛ ᴜʀs ғɪʟᴇ ⏬⏬</b>",
 
                 reply_markup=InlineKeyboardMarkup(buttons)
             )    
