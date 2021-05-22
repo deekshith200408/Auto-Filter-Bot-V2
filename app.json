@@ -14,15 +14,15 @@
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
-            "value": "1683003697:AAEmLXYmZpHYIUqFLqOkVVI4Q4eCxpLTeIU"
+            "value": "1650766444:AAHxitzkhMKbvGxVoQuJ1tl6UsDJStaWeaU"
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": "9415a61fedcc0f00f33667ca46e577a3"
+            "value": "b175db1c627e9cdb2bbdd154530bed56"
         },
         "APP_ID": {
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": "2980496"
+            "value": "3051132"
         },
         "TG_USER_SESSION": {
             "description": "A pyrogram user session string. Generate from https://repl.it/@prgofficial/String-Gen",
@@ -30,7 +30,7 @@
         },
         "AUTH_USERS": {
             "description": "ID of users that can use the bot commands",
-            "value": "1086432320"
+            "value": "1051512795"
         },
         "DATABASE_URI": {
             "description": "Database URL from https://cloud.mongodb.com/",
